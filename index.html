@@ -1,7 +1,9 @@
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Hilltop Happenings</title>
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
 	<nav class="top">
@@ -19,17 +21,17 @@
 			<ul class="nav-list">
 				<li>
 					<a class="" href=""> 
-						News
+						<h3>News</h3>
 					</a>
 				</li>
 				<li>
 					<a class="" href="">
-						About
+						<h3>About</h3>
 					</a>
 				</li>
 				<li>
 					<a class="" href="http://www.gocreighton.com">
-						Bluejays
+						<h3>Bluejays</h3>
 					</a>
 				</li>
 			</ul>
@@ -41,40 +43,40 @@
 		<h1>TOP STORIES</h1>
 	</div>
 	
-	<div>
+
 		<ul class="stories">
 			<li>
 				<article class="images">
-					<div id="images"><img src="Images/Chat.jpg" alt=""></div>
-					<h2>Austin Chatman</h2>
+					<img src="Images/Chat.jpg" alt="">
+					<h2 class="headline">Austin Chatman</h2>
 					<p>By Jacob Padilla</p>
 				</article>
 			</li>
 			<li>	
 				<article class="images">
-					<div id="images"><img src="Images/Doug.jpg" alt=""></div>
-					<h2>Doug McDermott</h2>
+					<img src="Images/Doug.jpg" alt="">
+					<h2 class="headline">Doug McDermott</h2>
 					<p>By Jacob Padilla</p>
 				</article class="images">
 			</li>
 			<li>	
 				<article class="images">
-					<div id="images"><img src="Images/Jahenns.jpg" alt=""></div>
-					<h2>Jahenns Manigat</h2>
+					<img src="Images/Jahenns.jpg" alt="">
+					<h2 class="headline">Jahenns Manigat</h2>
 					<p>By Jacob Padilla</p>
 				</article>
 			</li>
 			<li>	
 				<article class="images">
-					<div id="images"><img src="Images/Josh.jpg" alt=""></div>
-					<h2>Josh Jones</h2>
+					<img src="Images/Josh.jpg" alt="">
+					<h2 class="headline">Josh Jones</h2>
 					<p>By Jacob Padilla</p>
 				</article>
 			</li>	
 		</ul>
-	</div>		
+		
 
-	<footer>
+	<footer class="footer">
 	<p>Photos courtesy of White and Blue Review</p>
 	</footer>
 			
@@ -94,19 +96,19 @@
 		<script type="text/javascript">
 			$function(){
 				$('a.break').click(function(){
-					$('html, body').animate({scrollTop:$('#break').offset().top}, 1000)
+					$('html, body').animate({scrollTop:$('#break').offset().top}, 1000);
 				});
 
 				$('a.break').click(function(){
-					$('html, body').animate({scrollTop:$('#grids').offset().top}, 1000)
+					$('html, body').animate({scrollTop:$('#grids').offset().top}, 1000);
 				});
 
 				$('a.break').click(function(){
-					$('html, body').animate({scrollTop:$('#ems').offset().top}, 1000)
+					$('html, body').animate({scrollTop:$('#ems').offset().top}, 1000);
 				});
 
 				$('a.break').click(function(){
-					$('html, body').animate({scrollTop:$('#fimages').offset().top}, 1000)
+					$('html, body').animate({scrollTop:$('#fimages').offset().top}, 1000);
 				});
 			});
 		</script>

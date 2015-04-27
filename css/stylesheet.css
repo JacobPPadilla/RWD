@@ -6,9 +6,9 @@ html, p, body, nav, section, article, li, div, h2, h1, img, ul {
 }
 
 .top {
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-bottom: 30px;
+	padding-top: 2em;
+	padding-left: 1em;
+	margin-bottom: 2em;
 }
 
 .nav-header {
@@ -24,49 +24,63 @@ html, p, body, nav, section, article, li, div, h2, h1, img, ul {
 }
 
 .menu-icon {
-	padding-top: 20px;
-	margin-left: 40px;
+	
+	margin-left: 2em;
 	cursor: pointer;
 	position: relative;
 }
 
 .nav-list {
-	background-color: ;
+	background-color: #B3B3B3;
 	width: 100%;
-	padding: 10px;
+	padding: .5em;
 	position: relative;
-	right: -10px;
 	display: none;
+	list-style-type: none;
+	text-align: center;
+	margin-top: .5em;
 }
 
 .nav-list li {
-	display: block;
-	float: right;
-	margin-bottom: 20px;
-	padding-bottom: 0;
-	padding-right: 20px;
-	padding-top: 20px;
+
 }
 
 .stories-head {
 	padding-top: 1em;
-	text-align: none;
-	padding-left: 2.5em;
-	margin-bottom: 1em;
+	text-align: center;
+	padding-bottom: 1em;
+	background-color: #0000FF;
 }
 
 .stories{
-	float: left;
+	width: 100%;
 }
 
 .images {
 	width: 100%;
+	text-align: center;
+	padding-bottom: 1em;
+	background-color: #B3B3B3;
+}
 
+.headline {
+	padding-top: .5em;
+}
+
+.footer {
+	text-align: center;
+	background-color: #0000FF;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 
 img {
 	max-width: 100%;
+}
+
+.facts {
+	list-style-type: ;
 }
 
 @media (min-width: 960px){
