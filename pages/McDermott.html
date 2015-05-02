@@ -1,0 +1,103 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Doug McDermott</title>
+	<link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+	<nav class="top">
+		<div class="nav-header">
+			<a href="" title="">
+					<img src="../Images/HH-Logo-1.png">
+			</a>
+		</div>
+
+		<div>
+			<img class="menu-icon" src="../Images/menu-icon.jpg"></img>
+			
+			<ul class="nav-list">
+				<li>
+					<a class="" href=""> 
+						News
+					</a>
+				</li>
+				<li>
+					<a class="" href="">
+						About
+					</a>
+				</li>
+				<li>
+					<a class="" href="http://www.gocreighton.com">
+						Bluejays
+					</a>
+				</li>
+			</ul>
+		</div>				
+	</nav>
+	
+		<div class="stories-head">
+			<h1>DOUG MCDERMOTT</h1>
+		</div>
+	
+		<div class="content">
+			<article class="images">
+				<div id="images"><img src="../Images/Doug.jpg" alt=""></div>
+
+				<p>By Jacob Padilla</p>
+			</article>			
+			<article class="bio">
+				<ul class="facts">
+					<li>Position: Forward</li>
+					<li>Height: 6'8"</li>
+					<li>Hometown: Ames, Iowa</li>
+				</ul>
+				<p>
+					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+				</p>
+			</article>
+				
+		</div>
+
+
+		<footer class="footer">
+	<p>Photos courtesy of White and Blue Review</p>
+	</footer>
+			
+			<!-- H-Menu -->
+	<script type="text/javascript">
+		$(function() {
+			$nav = $('.nav-list');
+
+			$('.menu-icon').click(function(){
+				$nav.slideToggle();
+			});
+		});
+
+	</script>
+
+			<!-- Scrolling Effect -->
+		<script type="text/javascript">
+			$function(){
+				$('a.break').click(function(){
+					$('html, body').animate({scrollTop:$('#break').offset().top}, 1000);
+				});
+
+				$('a.break').click(function(){
+					$('html, body').animate({scrollTop:$('#grids').offset().top}, 1000);
+				});
+
+				$('a.break').click(function(){
+					$('html, body').animate({scrollTop:$('#ems').offset().top}, 1000);
+				});
+
+				$('a.break').click(function(){
+					$('html, body').animate({scrollTop:$('#fimages').offset().top}, 1000);
+				});
+			});
+		</script>
+
+</body>
+</html>
