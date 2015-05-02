@@ -11,16 +11,13 @@ html, p, body, nav, section, article, li, div, h2, h1, img, ul {
 	margin-bottom: 2em;
 }
 
-.nav-header {
-	float: left;
-	 
+.nav-header-short {
+	float: left;	 
 }
 
-.nav-header>li{
-	list-style-type: none;
+.nav-header-long {
 	float: left;
-	padding-top: .5em;
-	font-size: 1em;
+	display: none;
 }
 
 .menu-icon {
@@ -43,6 +40,13 @@ html, p, body, nav, section, article, li, div, h2, h1, img, ul {
 
 .nav-list li {
 
+}
+
+.nav-bar>li {
+	list-style-type: none;
+	float: right;
+	display: none;
+	background-color: #B3B3B3;
 }
 
 .stories-head {
@@ -80,10 +84,14 @@ img {
 }
 
 .facts {
-	list-style-type: ;
+padding: 1em;	
 }
 
-@media (min-width: 960px){
+.bio {
+	margin: 1em;
+}
+
+@media (min-width: 500px){
 	.images{
 		max-width: 61.75em;
 		padding: 0 1em;
@@ -92,5 +100,17 @@ img {
 
 	.menu-icon {
 		display: none;
+	}
+
+	.nav-header-short {
+		display: none;
+	}
+
+	.nav-header-long {
+		display: ;
+	}
+
+	#nav-bar {
+		display: ;
 	}
 }
