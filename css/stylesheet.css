@@ -8,16 +8,12 @@ html, p, body, nav, section, article, li, div, h2, h1, img, ul {
 .top {
 	padding-top: 2em;
 	padding-left: 1em;
-	margin-bottom: 2em;
+	margin-bottom: 5em;
 }
 
 .nav-header-short {
-	float: left;	 
-}
-
-.nav-header-long {
 	float: left;
-	display: none;
+	width: 50%;	 
 }
 
 .menu-icon {
@@ -38,18 +34,22 @@ html, p, body, nav, section, article, li, div, h2, h1, img, ul {
 	margin-top: .5em;
 }
 
-.nav-list li {
-
+.nav-bar {
+	width: 50%;
+	margin: 0px auto;
 }
 
-.nav-bar>li {
+.nav-bar-elements>li {
 	list-style-type: none;
+	padding-left: .5em;
+	padding-right: .5em;
 	float: left;
-	display: none;
+	display: inline;
 	background-color: #B3B3B3;
 }
 
 .stories-head {
+	margin-top: 1em;
 	padding-top: 1em;
 	text-align: center;
 	padding-bottom: 1em;
@@ -114,15 +114,7 @@ padding: 1em;
 		display: none;
 	}
 
-	.nav-header-short {
-		display: none;
-	}
-
-	.nav-header-long {
-		display: ;
-	}
-
 	.nav-bar {
-		display: ;
+		display: inline;
 	}
 }
