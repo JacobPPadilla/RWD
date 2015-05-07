@@ -44,7 +44,7 @@ html, p, body, nav, section, article, li, div, h2, h1, img, ul {
 
 .nav-bar>li {
 	list-style-type: none;
-	float: right;
+	float: left;
 	display: none;
 	background-color: #B3B3B3;
 }
@@ -91,11 +91,23 @@ padding: 1em;
 	margin: 1em;
 }
 
+.byline {
+	padding-top: 1em;
+}
+
+.contact {
+	padding-top: 1em;
+}
+
+.contact-list {
+	padding-top: .5em;
+	padding-left: 1em;
+}
+
 @media (min-width: 500px){
 	.images{
 		max-width: 61.75em;
-		padding: 0 1em;
-		margin: 0 auto;
+		
 	}
 
 	.menu-icon {
@@ -110,7 +122,7 @@ padding: 1em;
 		display: ;
 	}
 
-	#nav-bar {
+	.nav-bar {
 		display: ;
 	}
 }
